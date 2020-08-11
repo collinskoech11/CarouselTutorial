@@ -4,10 +4,24 @@
 	box-sizing:border-box;
 }
 .container{
-	width: 90%;
+	width: 25%;
 	margin: 10px auto;
 }
 .container .carousel{
 	border:1px solid rgb(0,0,0);
 	height: 400px;
+	position: relative;
+}
+.container .carousel .slider{
+	height: 100%;
+	display: flex;
+	width: 400%;
+	position: absolute;
+}
+.container .carousel .slider section{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
